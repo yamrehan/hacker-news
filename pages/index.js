@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-unfetch';
-import App from '../components/app';
+import App from '../components/App';
 import NewsList from '../components/NewsList/NewsList';
 
 const Index = props => (
