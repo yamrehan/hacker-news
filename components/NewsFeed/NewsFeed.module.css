@@ -37,4 +37,9 @@
     .column {
         flex-direction: column;
     }
+
+    .newsReaction {
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
