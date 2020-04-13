@@ -24,7 +24,7 @@ class NewsFeed extends React.PureComponent {
                         </a>
                     </div>
                 </div>
-                <div className={styles.flex}>
+                <div className={classNames(styles.flex, styles.column)}>
                     <div className={styles.pr25}>{newsDetail.title}</div>
                     <div className={classNames(styles.greyFont, styles.pr25)}>({extractDomainFromUrl(newsDetail.url)})</div>
                     <div>

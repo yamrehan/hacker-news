@@ -32,3 +32,9 @@
 .pr25 {
     padding-right: 4px;
 }
+
+@media screen and (max-width: 1024px) {
+    .column {
+        flex-direction: column;
+    }
+}
